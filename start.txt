@@ -1,0 +1,40 @@
+# FRAUDE DETECTION NOTEBOOKS - ESTRUTURA BASEADA EM REPOSITÓRIOS AVANÇADOS + TCC
+
+# Este arquivo organiza o desenvolvimento de notebooks separados para cada abordagem de detecção de fraudes:
+# 1. Naive Bayes
+# 2. Regressão Logística
+# 3. Decision Tree
+# 4. Autoencoder (AE)
+#
+# Todos os notebooks usam a base creditcard.csv e compartilham a mesma estrutura de pré-processamento para facilitar comparação.
+# Repositórios de referência foram utilizados como inspiração para arquitetura e métricas.
+
+# Estrutura recomendada:
+# notebooks/
+# ├── 1_naive_bayes.ipynb
+# ├── 2_logistic_regression.ipynb
+# ├── 3_decision_tree.ipynb
+# ├── 4_autoencoder.ipynb
+# └── 5_comparativo_final.ipynb
+
+# Pré-requisitos no ambiente:
+# - creditcard.csv (base de dados)
+# - requisitos instalados: pandas, numpy, sklearn, tensorflow, keras, seaborn, matplotlib
+
+# Próximos passos:
+# 1. Gerar cada notebook com:
+#     - Pré-processamento
+#     - Treinamento
+#     - Avaliação (confusion matrix, classification report, ROC-AUC)
+# 2. No notebook 5_comparativo_final.ipynb:
+#     - Carregar todos os resultados
+#     - Gerar tabela comparativa (acurácia, recall, F1-score, ROC-AUC)
+#     - Gráficos comparativos
+
+# Observação:
+# A estrutura segue os padrões observados nos repositórios indicados:
+# https://github.com/amunategui/CVAE-Financial-Anomaly-Detection
+# https://github.com/anandharaju/Fraud-Detection-Methods
+# https://www.kaggle.com/code/deepaksurana/fraud-detection-using-autoencoders-in-keras
+# https://github.com/limkhashing/Credit-Card-Fraud-Detection
+# https://github.com/prabhatk579/credit-card-fraud-detection-using-logistic-regression
